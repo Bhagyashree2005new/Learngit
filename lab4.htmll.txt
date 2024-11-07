@@ -1,0 +1,39 @@
+<html>
+<head>
+<script type="text/javascript">
+var sum=0;
+function add(n)
+{
+sum=sum+n;
+}
+function display()
+{
+sum=(0.05*sum+sum);
+alert("your total amount$"+sum);
+}
+</script>
+</head>
+<center>Test and validate XHTML doc
+<label>Apple
+<input type ="checkbox" name="app" value="50" onclick="add(50);"/>
+</label>
+</br></br>
+<label>Orange
+<input type ="checkbox" name="org" value="40" onclick="add(40);"/>
+</label>
+
+</br></br>
+<label>Banana
+<input type ="checkbox" name="ban" value="60" onclick="add(60);"/>
+</label>
+
+</br>
+<input type ="submit" value="Submit" onclick="display();"/>
+
+</center>
+</form>
+</body>
+</html>
+
+
+
